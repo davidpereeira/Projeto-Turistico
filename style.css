@@ -1,0 +1,13 @@
+*body {
+  width: 1280px;
+  height: 3280px;  
+  margin: 0px;
+  padding: 0px;  
+}
+
+#page { 
+  font-family: "Open Sans", sans-serif; 
+  margin: 88px auto 137px;
+  width: 1120px;
+  height: 3050px;
+}
