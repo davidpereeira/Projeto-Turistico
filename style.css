@@ -5,9 +5,70 @@
   padding: 0px;  
 }
 
+body {
+  background-image: url(assets/bg-image.jpg);
+  background-size: cover;
+}
+
 #page { 
   font-family: "Open Sans", sans-serif; 
-  margin: 88px auto 137px;
+  margin: 0px auto;
+  padding: 88px 80px 137px;
   width: 1120px;
-  height: 3050px;
+  background-color: #dce0e6;
+  border-radius: 28px;
+}
+
+.redletter {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #E1624F;
+}
+
+.headerh1 {
+  font-size: 36px;  
+}
+
+#headfoto {
+  width: 1120px;
+  height: 600px;
+  border-radius: 28px;
+  margin: 44px auto 24px;
+}
+
+.headerp {
+  font-style: italic;
+  line-height: 22px;
+  text-align: center; 
+  margin-bottom: 104px;
+}
+
+#topo h2 {
+  font-size: 32px;
+}
+
+ol {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+ul {
+  color: #E1624F;
+}
+
+#bottom {
+  text-align: center;
+  margin: 80px auto 65px;
+}
+
+#zermatt {
+  margin-top: 64px;
+}
+
+section + section {
+  margin-top: 48px;
+}
+
+footer {
+  text-align: center;
 }
